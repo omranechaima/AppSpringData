@@ -1,0 +1,11 @@
+package enig.tn.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import enig.tn.model.Produit;
+@Repository
+public interface IGesProduit extends JpaRepository<Produit, Integer >{
+	
+
+}
